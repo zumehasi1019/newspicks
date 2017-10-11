@@ -23,6 +23,7 @@ group :development, :test do
   gem 'factory_girl_rails', "~> 4.4.1"
   gem 'faker'
   gem 'rails-controller-testing'
+  gem 'sqlite3', '1.3.13'
 
 
 end
@@ -35,4 +36,8 @@ end
 
 group :test do
   gem 'faker'
+end
+
+group :production do
+  gem 'pg', '0.20.0'
 end
