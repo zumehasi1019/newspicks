@@ -36,6 +36,3 @@ Please feel free to use a different markup language if you do not plan to run
 - belongs_to :user
 - belongs_to :news
 
-
-
-
