@@ -14,7 +14,6 @@ gem 'devise'
 gem 'carrierwave'
 gem 'mini_magick'
 
-
 group :development, :test do
   gem 'byebug'
   gem 'pry-rails'
