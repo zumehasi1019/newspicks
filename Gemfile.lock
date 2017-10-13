@@ -223,7 +223,11 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
+<<<<<<< HEAD
     unicorn (5.3.0)
+=======
+    unicorn (5.3.1)
+>>>>>>> ba5441e6789ea315363e2088b2581245ea464128
       kgio (~> 2.6)
       raindrops (~> 0.7)
     warden (1.2.7)

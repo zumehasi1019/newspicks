@@ -37,8 +37,11 @@ Please feel free to use a different markup language if you do not plan to run
 - belongs_to :news
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 
 
 
 =======
 >>>>>>> DB設計
+=======
+>>>>>>> ba5441e6789ea315363e2088b2581245ea464128
