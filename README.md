@@ -4,7 +4,6 @@ Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
 
 ## newsテーブル
-
 |Column|Type|Options|
 |------|----|-------|
 |name|integer|null: false, foreign_key: true|
@@ -36,3 +35,4 @@ Please feel free to use a different markup language if you do not plan to run
 ### Association
 - belongs_to :user
 - belongs_to :news
+
