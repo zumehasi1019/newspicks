@@ -13,6 +13,7 @@ gem 'font-awesome-rails'
 gem 'devise'
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'turbolinks'
 
 group :development, :test do
   gem 'byebug'
