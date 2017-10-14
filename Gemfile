@@ -22,9 +22,6 @@ group :development, :test do
   gem 'factory_girl_rails', "~> 4.4.1"
   gem 'faker'
   gem 'rails-controller-testing'
-  gem 'sqlite3', '1.3.13'
-
-
 end
 
 group :development do
