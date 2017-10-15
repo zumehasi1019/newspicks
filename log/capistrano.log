@@ -1,0 +1,86 @@
+# Logfile created on 2017-10-15 20:40:36 +0900 by logger.rb/54362
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-10-15 20:40:36 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [8b7b46a7] Running [ -d $HOME/.rbenv/versions/2.3.1 ] as ec2-user@52.69.159.203
+ DEBUG [8b7b46a7] Command: [ -d $HOME/.rbenv/versions/2.3.1 ]
+ DEBUG [8b7b46a7] Finished in 0.313 seconds with exit status 0 (successful).
+  INFO [9b1e2524] Running /usr/bin/env mkdir -p /tmp as ec2-user@52.69.159.203
+ DEBUG [9b1e2524] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.3.1" ; /usr/bin/env mkdir -p /tmp )
+  INFO [9b1e2524] Finished in 0.087 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-newspicks-production-takaya.sh 0.0%
+  INFO Uploading /tmp/git-ssh-newspicks-production-takaya.sh 100.0%
+  INFO [74221859] Running /usr/bin/env chmod 700 /tmp/git-ssh-newspicks-production-takaya.sh as ec2-user@52.69.159.203
+ DEBUG [74221859] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.3.1" ; /usr/bin/env chmod 700 /tmp/git-ssh-newspicks-production-takaya.sh )
+  INFO [74221859] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [de9b3e5a] Running /usr/bin/env git ls-remote git@github.com:zumehas1019/newspicks.git HEAD as ec2-user@52.69.159.203
+ DEBUG [de9b3e5a] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.3.1" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-newspicks-production-takaya.sh" ; /usr/bin/env git ls-remote git@github.com:zumehas1019/newspicks.git HEAD )
+ DEBUG [de9b3e5a] 	ERROR: Repository not found.
+ DEBUG [de9b3e5a] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-10-15 20:41:23 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [222fd3bb] Running [ -d $HOME/.rbenv/versions/2.3.1 ] as ec2-user@52.69.159.203
+ DEBUG [222fd3bb] Command: [ -d $HOME/.rbenv/versions/2.3.1 ]
+ DEBUG [222fd3bb] Finished in 0.267 seconds with exit status 0 (successful).
+  INFO [b2c159e8] Running /usr/bin/env mkdir -p /tmp as ec2-user@52.69.159.203
+ DEBUG [b2c159e8] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.3.1" ; /usr/bin/env mkdir -p /tmp )
+  INFO [b2c159e8] Finished in 0.077 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-newspicks-production-takaya.sh 0.0%
+  INFO Uploading /tmp/git-ssh-newspicks-production-takaya.sh 100.0%
+  INFO [cc3ded53] Running /usr/bin/env chmod 700 /tmp/git-ssh-newspicks-production-takaya.sh as ec2-user@52.69.159.203
+ DEBUG [cc3ded53] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.3.1" ; /usr/bin/env chmod 700 /tmp/git-ssh-newspicks-production-takaya.sh )
+  INFO [cc3ded53] Finished in 0.088 seconds with exit status 0 (successful).
+  INFO [0043950c] Running /usr/bin/env git ls-remote git@github.com:zumehas1019/newspicks.git HEAD as ec2-user@52.69.159.203
+ DEBUG [0043950c] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.3.1" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-newspicks-production-takaya.sh" ; /usr/bin/env git ls-remote git@github.com:zumehas1019/newspicks.git HEAD )
+ DEBUG [0043950c] 	ERROR: Repository not found.
+ DEBUG [0043950c] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-10-15 20:52:02 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f96776b6] Running [ -d $HOME/.rbenv/versions/2.3.1 ] as ec2-user@52.69.159.203
+ DEBUG [f96776b6] Command: [ -d $HOME/.rbenv/versions/2.3.1 ]
+ DEBUG [f96776b6] Finished in 0.277 seconds with exit status 0 (successful).
+  INFO [edcb54f0] Running /usr/bin/env mkdir -p /tmp as ec2-user@52.69.159.203
+ DEBUG [edcb54f0] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.3.1" ; /usr/bin/env mkdir -p /tmp )
+  INFO [edcb54f0] Finished in 0.077 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-newspicks-production-takaya.sh 0.0%
+  INFO Uploading /tmp/git-ssh-newspicks-production-takaya.sh 100.0%
+  INFO [3b6f394d] Running /usr/bin/env chmod 700 /tmp/git-ssh-newspicks-production-takaya.sh as ec2-user@52.69.159.203
+ DEBUG [3b6f394d] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.3.1" ; /usr/bin/env chmod 700 /tmp/git-ssh-newspicks-production-takaya.sh )
+  INFO [3b6f394d] Finished in 0.089 seconds with exit status 0 (successful).
+  INFO [4463f682] Running /usr/bin/env git ls-remote git@github.com:zumehas1019/newspicks.git HEAD as ec2-user@52.69.159.203
+ DEBUG [4463f682] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.3.1" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-newspicks-production-takaya.sh" ; /usr/bin/env git ls-remote git@github.com:zumehas1019/newspicks.git HEAD )
+ DEBUG [4463f682] 	Warning: Permanently added the RSA host key for IP address '192.30.255.112' to the list of known hosts.
+ DEBUG [4463f682] 	ERROR: Repository not found.
+ DEBUG [4463f682] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-10-15 20:54:47 +0900 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [006bba4d] Running [ -d $HOME/.rbenv/versions/2.3.1 ] as ec2-user@52.69.159.203
+ DEBUG [006bba4d] Command: [ -d $HOME/.rbenv/versions/2.3.1 ]
+ DEBUG [006bba4d] Finished in 0.204 seconds with exit status 0 (successful).
+  INFO [7efdce20] Running /usr/bin/env mkdir -p /tmp as ec2-user@52.69.159.203
+ DEBUG [7efdce20] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.3.1" ; /usr/bin/env mkdir -p /tmp )
+  INFO [7efdce20] Finished in 0.070 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-newspicks-production-takaya.sh 0.0%
+  INFO Uploading /tmp/git-ssh-newspicks-production-takaya.sh 100.0%
+  INFO [8a330d82] Running /usr/bin/env chmod 700 /tmp/git-ssh-newspicks-production-takaya.sh as ec2-user@52.69.159.203
+ DEBUG [8a330d82] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.3.1" ; /usr/bin/env chmod 700 /tmp/git-ssh-newspicks-production-takaya.sh )
+  INFO [8a330d82] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [84317d72] Running /usr/bin/env git ls-remote git@github.com:zumehas1019/newspicks.git HEAD as ec2-user@52.69.159.203
+ DEBUG [84317d72] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.3.1" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-newspicks-production-takaya.sh" ; /usr/bin/env git ls-remote git@github.com:zumehas1019/newspicks.git HEAD )
+ DEBUG [84317d72] 	ERROR: Repository not found.
+ DEBUG [84317d72] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
