@@ -2,7 +2,7 @@
 lock "3.9.1"
 
 set :application, 'newspicks'
-set :repo_url,  'git@github.com:zumehas1019/newspicks.git'
+set :repo_url,  'git@github.com:zumehasi1019/newspicks.git'
 
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system', 'public/uploads')
 
