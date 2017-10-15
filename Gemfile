@@ -40,6 +40,6 @@ group :test do
   gem 'faker'
 end
 
-group :production do
+group :production, :staging do
   gem 'unicorn'
 end
